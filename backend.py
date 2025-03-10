@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Replace with actual Gemini API key
-GEMINI_API_KEY = 'AIzaSyClahyZpppiE3wfqC0Y-OQKWSKKzFQfwpA'
+GEMINI_API_KEY = 'API key'
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('models/gemini-1.5-pro-latest')
 
